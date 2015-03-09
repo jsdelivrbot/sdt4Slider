@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+    <title>Recognition Slider </title>
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="wrapper">
+        <div class="slider-wrapper theme-dark">
+            <div id="slider" class="nivoSlider">
+                <img src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4%20Site%20Images/Gards.jpg" title="Gards <br> Member of the Month <br> January 2015" />
+                <img src="https://raw.githubusercontent.com/gards25/sdt4Slider/master/SDT4%20Site%20Images/Gards1.jpg" title="????? <br> Member of the Month <br> February 2015" />
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider(
+        {
+         effect: 'random',                 // Specify sets like: 'fold,fade,sliceDown'
+         slices: 15,                     // For slice animations
+         boxCols: 8,                     // For box animations
+         boxRows: 4,                     // For box animations
+         animSpeed: 500,                 // Slide transition speed
+         pauseTime: 3000,                 // How long each slide will show
+         startSlide: 0,                     // Set starting Slide (0 index)
+         directionNav: true,             // Next & Prev navigation
+         controlNav: true,                 // 1,2,3... navigation
+         controlNavThumbs: false,         // Use thumbnails for Control Nav
+         pauseOnHover: true,             // Stop animation while hovering
+         manualAdvance: true,             // Force manual transitions
+         prevText: 'Prev',                 // Prev directionNav text
+         nextText: 'Next',                 // Next directionNav text
+         randomStart: false,             // Start on a random slide
+        });
+    });
+    </script>
+</body>
+</html>
