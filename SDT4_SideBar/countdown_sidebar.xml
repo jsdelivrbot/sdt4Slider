@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="hello world example" />
+<Content type="html">
+<![CDATA[
+<!DOCTYPE HTML>
+<html lang="en">
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+</script>
+<div id="slideshow" style="width:200px;height:100px;overflow:hidden;">
+<div>
+     <iframe src="https://goo.gl/wcRvlZ" name="frame" id="frame" width="200px" height="100px" frameborder="0" scrolling="no" ></iframe>
+</div>
+   <div>
+     <iframe src="https://goo.gl/n35CbK" name="frame" id="frame" width="200px" height="100px" frameborder="0" scrolling="no" ></iframe>
+   </div>
+   <div>
+	 <iframe src="https://goo.gl/RicwR5"  name="frame" id="frame" width="200px" height="100px" frameborder="0" scrolling="no" ></iframe>
+   </div>
+</div>
+
+</body>
+</html>
+]]></Content>
+</Module>
