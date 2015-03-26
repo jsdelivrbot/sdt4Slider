@@ -8,26 +8,32 @@
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
-$("#slideshow > div:gt(0)").hide();
-
-setInterval(function() { 
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-},  3000);
+	$('#slideshow > div:gt(0)').hide();
+	
+	setInterval(function() { 
+	  $('#slideshow > div:first')
+	    .fadeOut(1500)
+	    .next()
+	    .fadeIn(1500)
+	    .end()
+	    .appendTo('#slideshow');
+	},  3000);
 </script>
-<div id="slideshow" style="width:200px;height:100px;overflow:hidden;">
-<div>
-     <iframe src="https://goo.gl/wcRvlZ" name="frame" id="frame" width="200px" height="100px" frameborder="0" scrolling="no" ></iframe>
-</div>
-   <div>
-     <iframe src="https://goo.gl/n35CbK" name="frame" id="frame" width="200px" height="100px" frameborder="0" scrolling="no" ></iframe>
+<style>
+	body {
+    	background-color: #F2F2F2;
+	}
+	.hidden { display: none; }
+</style>
+<div id="slideshow" style="position: relative; width: 200px; height: 89px; overflow:hidden">
+	<div >
+     <iframe src="https://goo.gl/wcRvlZ" name="frame" id="frame" width="200px" height="89px" frameborder="0" scrolling="no"></iframe>
+	</div>
+   <div class="hidden" >
+     <iframe src="https://goo.gl/n35CbK" name="frame" id="frame" width="200px" height="89px" frameborder="0" scrolling="no" ></iframe>
    </div>
-   <div>
-	 <iframe src="https://goo.gl/RicwR5"  name="frame" id="frame" width="200px" height="100px" frameborder="0" scrolling="no" ></iframe>
+   <div class="hidden" >
+	 <iframe src="https://goo.gl/RicwR5"  name="frame" id="frame" width="200px" height="89px" frameborder="0" scrolling="no" ></iframe>
    </div>
 </div>
 
