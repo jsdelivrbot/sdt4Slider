@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="https://raw.githack.com/gards25/sdt4Slider/master/SDT4_recognitionSlider/themes/dark/dark.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="https://raw.githack.com/gards25/sdt4Slider/master/SDT4_recognitionSlider/css/nivo-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="https://raw.githack.com/gards25/sdt4Slider/master/SDT4_recognitionSlider/css/style.css" type="text/css" media="screen" />
+	<style>
+		img{
+			width: 437px;
+			height: 655px;
+		}
+	</style>
 </head>
 <body>
     <div id="wrapper">
