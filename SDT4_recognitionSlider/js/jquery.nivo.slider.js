@@ -140,7 +140,7 @@
         }
         
         // Add Control nav
-        if(settings.controlNav){
+        /*if(settings.controlNav){
             vars.controlNavEl = $('<div class="nivo-controlNav"></div>');
             slider.after(vars.controlNavEl);
             for(var i = 0; i < kids.length; i++){
@@ -168,7 +168,7 @@
                 vars.currentSlide = $(this).attr('rel') - 1;
                 nivoRun(slider, kids, settings, 'control');
             });
-        }
+        }*/
         
         //For pauseOnHover setting
         if(settings.pauseOnHover){
