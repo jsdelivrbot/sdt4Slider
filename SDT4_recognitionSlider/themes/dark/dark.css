@@ -91,12 +91,12 @@ Supports Thumbs: true
 }
 .theme-dark .nivo-controlNav.nivo-thumbs-enabled a {
 	width: auto;
-	height: auto;
+	height: 130px;
 	background: none;
 	margin-bottom: 5px;
 }
 .theme-dark .nivo-controlNav.nivo-thumbs-enabled img {
 	display: block;
 	width: 120px;
-	height: auto;
+	height: 130px;
 }

@@ -141,7 +141,7 @@
         
         // Add Control nav
         if(settings.controlNav){
-            vars.controlNavEl = $('<div class="nivo-controlNav"></div>');
+            vars.controlNavEl = $('<div class="nivo-controlNav" style="height:20px;"></div>');
             slider.after(vars.controlNavEl);
             for(var i = 0; i < kids.length; i++){
                 if(settings.controlNavThumbs){
@@ -152,7 +152,7 @@
                     }
                     if(child.attr('data-thumb')) vars.controlNavEl.append('<a class="nivo-control" rel="'+ i +'"><img src="'+ child.attr('data-thumb') +'" alt="" /></a>');
                 } else {
-                    vars.controlNavEl.append('<a class="nivo-control" rel="'+ i +'">'+ (i + 1) +'</a>');
+                    //vars.controlNavEl.append('<a class="nivo-control" rel="'+ i +'">'+ (i + 1) +'</a>');
                 }
             }
 
