@@ -15,7 +15,7 @@
       <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
 @font-face {
-  font-family: 'Arial';
+  font-family: 'Electrolize';
   font-style: normal;
   font-weight: 400;
   src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
@@ -98,7 +98,7 @@ h1.main,p.demos {
 	animation-delay: 9s;
 }
 .sp-container h2.frame-5 {
-	font-size: 200px;
+	<!--font-size: 200px;-->
 	-webkit-animation-delay: 12s;
 	-moz-animation-delay: 12s;
 	-ms-animation-delay: 12s;
