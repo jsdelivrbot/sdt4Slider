@@ -15,7 +15,7 @@
       <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
 @font-face {
-  font-family: 'Electrolize';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
@@ -370,11 +370,11 @@ h1.main,p.demos {
             <div class="sp-globe"></div>
             	<h2 class="frame-1">We deliver quality services</h2>
 
-            	<h2 class="frame-2">and innovative solutions</h2>
+            	<h2 class="frame-2">Innovative solutions</h2>
 
-            	<h2 class="frame-3">to satisfy our clients' needs</h2>
+            	<h2 class="frame-3">Satisfy our clients' needs</h2>
 				
-				<h2 class="frame-4">and conquer their challenges.</h2>
+				<h2 class="frame-4">Conquer their challenges</h2>
 
             	<h2 class="frame-5">We are</h2>
 
