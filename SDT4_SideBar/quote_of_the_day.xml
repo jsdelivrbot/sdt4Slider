@@ -59,7 +59,7 @@ var Qoutes = [
 {id:"29",quote:"Be enthusiastic as a leader. You can't light a fire with a wet match.",author:"Unknown"},
 {id:"30",quote:"Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice.",author:"Wayne Dyer"},
 {id:"31",quote:"Being nominated is the win. For me, being nominated is winning. It's just unbelievable.",author:"Martha Plimpton"},
-{id:"32",quote:"Being powerful is like being a lady. If you have to tell people you are, you arenÅft!",author:"Margaret Thatcher"},
+{id:"32",quote:"Being powerful is like being a lady. If you have to tell people you are, you aren¬Åft!",author:"Margaret Thatcher"},
 {id:"33",quote:"Belief in oneself is one of the most important bricks in building any successful venture.",author:"Lydia M. Child"},
 {id:"34",quote:"Believe with all of your heart that you will do what you were made to do.",author:"Orison Swett Marden"},
 {id:"35",quote:"Big jobs usually go to the men who prove their ability to outgrow small ones.",author:"Ralph Waldo Emerson"},
@@ -391,7 +391,9 @@ var Qoutes = [
 {id:"361",quote:"You were not born a winner, and you were not born a loser. You are what you make yourself be.",author:"Lou Holtz"},
 {id:"362",quote:"You will face many defeats in your life, but never let yourself be defeated.",author:"Maya Angelou"},
 {id:"363",quote:"Your present circumstances don't determine where you can go;they merely determine where you start.",author:"Nido Qubein"},
-{id:"364",quote:"Your work is first, learning is first, winning is everything because without it there is nothing.",author:"Orson Scott Card"}
+{id:"364",quote:"Your work is first, learning is first, winning is everything because without it there is nothing.",author:"Orson Scott Card"},
+{id:"365",quote:"Your work is first, learning is first, winning is everything because without it there is nothing.",author:"Orson Scott Card"},
+{id:"366",quote:"Your work is first, learning is first, winning is everything because without it there is nothing.",author:"Orson Scott Card"}
 ];
 
 document.write(Qoutes[day].quote +"<br/>"); 
