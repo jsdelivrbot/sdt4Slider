@@ -394,7 +394,7 @@ var Qoutes = [
 {id:"366",quote:"Your work is first, learning is first, winning is everything because without it there is nothing.",author:"Orson Scott Card"}
 ];
 
-document.write("<i>&quot;" + Qoutes[day].quote +"&quot;</i>"+"<br/>"); 
+document.write("<i>&ldquo;" + Qoutes[day].quote +"&rdquo;</i>"+"<br/>"); 
 document.write("- "+ Qoutes[day].author);
 
 //-->
