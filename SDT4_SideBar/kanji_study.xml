@@ -8,7 +8,7 @@
 <head>
 <meta charset="UTF-8" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="kanji-master.js" charset="Shift_JIS"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/christian17/sdt4Slider/master/SDT4_SideBar/kanji-master.js" charset="Shift_JIS"></script>
 <script>
 
 $(document).ready(function(){
