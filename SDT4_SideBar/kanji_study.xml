@@ -2238,7 +2238,7 @@ var KanjiMaster_N1 = [
 
 $(document).ready(function(){
     $("#mydiv").hide();
-     $("#mydiv2").show();
+    $("#mydiv2").show();
 
     $("#mydiv").click(function(){
         $("#mydiv").hide();
@@ -2331,6 +2331,9 @@ function myFunction(){
   element.innerHTML += "<br/><br/>";
   element.innerHTML += "<font size='4'><span>" + kanji[currentpage].meaning + "</span></font>"; 
   element.innerHTML += "<br/><br/>";
+  
+  $("#mydiv").hide();
+  $("#mydiv2").show();
 }
 
 function getRandomInt(min, max) {
